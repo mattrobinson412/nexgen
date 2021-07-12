@@ -1,0 +1,39 @@
+{
+  "name": "nexgen",
+  "version": "1.0.0",
+  "description": "API for NexGen Solutions Int'l.",
+  "main": "server.js",
+  "scripts": {
+    "test": "-i jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mattrobinson412/nexgen.git"
+  },
+  "author": "MAR",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "jest": "^27.0.6",
+    "jsdoc": "^3.6.7",
+    "jsonschema": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.6.2",
+    "nodemon": "^2.0.12",
+    "passport": "^0.4.1",
+    "pg": "^8.6.0",
+    "uuid": "^8.3.2",
+    "validator": "^13.6.0"
+  }
+}
